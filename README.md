@@ -1,4 +1,4 @@
-# formula-calcuator
+# formula-calculator
 
 This is my first program... Its not gonna be great.  
 
