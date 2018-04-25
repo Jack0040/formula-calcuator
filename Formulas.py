@@ -51,11 +51,11 @@ elif formula == "CtoK" or formula == "ctok":
 elif formula == 'boiling point change':
   m = int(input("Molality? "))
   iiii = int(input("Particles per molecule dissolved? "))
-  water = input("Is the solvent water? Y/N")
+  water = input("Is the solvent water? Y/N ")
   
   if water == "y" or water == "Y":
     kb = WaterKb
-  else: kb = int(input('Kb of solvent? ')
+  else: kb = int(input('Kb of solvent? '))
   print (iiii * m * kb) 
   input("Press enter to exit ;)")
 #end boiling point change
@@ -63,6 +63,7 @@ elif formula == 'boiling point change':
 #you have now reached the end of what has been written! consider adding your own formulae...
 elif formula == "help":
   print ("test, CtoK (celsius to Kelvin), boiling point change")
+  input("Press enter to exit ;)")
 
 else:
   print ("This is not a recognized formula... Type help for a list of functions.")
